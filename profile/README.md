@@ -1,12 +1,25 @@
-## Hi there 👋
+# AI × Web3 Savings Challenge
 
-<!--
+Starter project for the French Tech Lagos AI × Web3 Developers Challenge. It combines a React dashboard, an AI savings-insights backend, simulated bank data and a savings-goal smart contract on the Celo Sepolia test network.
 
-**Here are some ideas to get you started:**
+All data is synthetic and the blockchain part uses a test network. No real money moves.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## Get started
+
+**Navigate to [`docs/setup.md`](docs/setup.md) to set up and run the project.** It covers installing the prerequisites, setting up MetaMask on Chrome, and running the backend and the frontend.
+
+## Documentation
+
+| File | What it covers |
+|---|---|
+| [`docs/setup.md`](docs/setup.md) | Step-by-step setup for the backend, frontend and wallet |
+| [`docs/api-reference.md`](docs/api-reference.md) | Mock API, AI endpoint and smart contract reference |
+| [`docs/mentor-guide.md`](docs/mentor-guide.md) | Guide for mentors: checklist, demo script and common problems |
+
+## Project structure
+
+- `frontend/`: the dashboard (React + Vite)
+- `backend/`: the AI analysis endpoint and the contract event listener
+- `contracts/`: the `SavingsGoal` smart contract source
+- `mock-api/`: the mock API resources
+- `docs/`: all documentation
